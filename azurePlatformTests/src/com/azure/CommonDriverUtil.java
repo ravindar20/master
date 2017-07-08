@@ -19,7 +19,7 @@ public class CommonDriverUtil {
 	
 	public void openBrowser(String browserType) {
 		try {
-
+			System.out.println();
 			browserType = browserType.trim();
 			if (browserType.equalsIgnoreCase("firefox")) {
 				driver = new FirefoxDriver();
