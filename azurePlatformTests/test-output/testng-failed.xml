@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browserType" value="chrome"/>
+  <test name="firefoxTest(failed)">
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.azure.DeviceTest">
+        <methods>
+          <include name="verifySearchHint"/>
+          <include name="verifydropdwonval"/>
+          <include name="openBrowser"/>
+          <include name="close"/>
+          <include name="verifySortDefalutVal"/>
+        </methods>
+      </class> <!-- com.azure.DeviceTest -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
